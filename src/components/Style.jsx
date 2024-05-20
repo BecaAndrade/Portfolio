@@ -133,3 +133,35 @@ height: auto;
     width: 100%;
 }
 `
+
+//estilização SOBRE:
+
+export const Sectionsobre = styled.section`
+display: flex;
+justify-content: space-around;
+align-items: center;  
+
+img{
+    width: 90%;
+    height: auto;
+  }
+
+`
+
+export const Article=styled.article`
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-around;
+
+img{
+    height: 300px;
+    width: 100%;
+  }
+
+  figure{
+  display: flex;
+  flex-direction: column;
+  }
+`
+
