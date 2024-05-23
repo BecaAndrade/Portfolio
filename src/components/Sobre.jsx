@@ -17,25 +17,25 @@ return(
               <h2>Linguagens</h2>
 
      <S.Sectionsobre>
-        <div>
+        <S.DivSobre>
             <img src={HTML} alt="logo do HTML" />
             <h3>HTML</h3>
-         </div>
+         </S.DivSobre>
 
-         <div>
+         <S.DivSobre>
             <img src={CSS} alt="logo do CSS" />
             <h3>CSS</h3>
-         </div>
+         </S.DivSobre>
 
-         <div>
+         <S.DivSobre>
             <img src={JS} alt="logo do JAVASCRIPT" />
             <h3>JAVASCRIPT</h3>
-         </div>
+         </S.DivSobre>
 
-         <div>
+         <S.DivSobre>
             <img src={ReactImg} alt="logo do React" />
             <h3>REACT</h3>
-         </div>
+         </S.DivSobre>
         </S.Sectionsobre> 
 
          

@@ -19,9 +19,10 @@ width: 100%;
 
 export const Nav = styled.nav`
 width: 80%;
-height: 20vh;
+height: 15vh;
 display: flex;
 justify-content: space-around;
+align-items: center;
 background-color: #854adf;
 
 @media(min-width: 320px) and (max-width: 768px){
@@ -73,14 +74,14 @@ export const ContainerInicio=styled.main`
 display: flex;
 align-items: center;
 width: 100%;
-height: 100vh;
+height: 80vh;
 
 @media(min-width: 320px) and (max-width: 768px){
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     a{
         font-size: 1rem;
@@ -90,8 +91,9 @@ height: 100vh;
 `
 
 export const Section1 = styled.section`
+
 width: 80%;
-height: 30vh;
+height: 20vh;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -112,6 +114,7 @@ align-items: center;
 `
 
 export const Div1 = styled.div`
+
 width: auto;
 display: flex;
 flex-direction: column;
@@ -125,8 +128,8 @@ color: white;
 `
 
 export const Perfil= styled.img`
+height: 80vh;
 width: 40%;
-height: auto;
 
 @media(min-width: 320px) and (max-width: 768px){
     height: 50vh;
@@ -142,10 +145,41 @@ justify-content: space-around;
 align-items: center;  
 
 img{
-    width: 90%;
+    width: 80%;
     height: auto;
   }
 
+  @media(min-width: 320px) and (max-width: 768px){
+   //border: solid black;
+   width: 100%;
+   height: 15%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+   img{
+    width: 70%;
+   }
+
+    h3{
+      font-size: 0.8rem;
+    }
+  }
+
+`
+export const DivSobre = styled.div`
+height: 20%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+
+@media(min-width: 320px) and (max-width: 768px){
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 `
 
 export const Article=styled.article`
@@ -154,14 +188,87 @@ height: 100%;
 display: flex;
 justify-content: space-around;
 
+
 img{
-    height: 300px;
-    width: 100%;
+    height: 90%;
   }
 
   figure{
+  height: 45vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
+
+  @media(min-width: 320px) and (max-width: 768px){
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    figure{
+      height: 40%;
+      flex-direction: column;
+      justify-content: center; 
+    }
+    
+    img{
+      height: 60%;
+      width: 50%;
+    }
+    }
 `
 
+//ESTILIZAÇÃO PROJETOS:
+
+export const SectionProjetos = styled.section`
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 80vh;
+
+@media(min-width: 320px) and (max-width: 768px){
+  //border: solid blue;
+  height: 150% ;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+`
+
+export const Projetos = styled.div`
+border: solid #854adf;
+border-radius: 20px;
+width: 19%;
+height: 70%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+img{
+  border-radius: 5%;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+@media(min-width: 320px) and (max-width: 768px){
+ //border: solid black;
+ width: 80%;
+ height: 50%;
+}
+`
