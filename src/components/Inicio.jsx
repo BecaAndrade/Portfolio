@@ -1,7 +1,7 @@
 import React from "react";
 import Rebeca from "./ImagensPortfolio/Rebeca.png"
 import Linkedin from "./ImagensPortfolio/linkedin.png"
-import Instagram from "./ImagensPortfolio/Instagram.png"
+import Instagram from "./ImagensPortfolio/instagram.png"
 import GitHub from "./ImagensPortfolio/github.png"
 import * as S from "./Style"
 
